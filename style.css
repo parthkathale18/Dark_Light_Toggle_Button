@@ -1,0 +1,58 @@
+/* Default Light Theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --btn-bg: #e0e0e0;
+  --btn-text: #000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d1d1d1;
+}
+
+/* 🌙 Dark Theme */
+.dark {
+  --bg-color: #222;
+  --text-color: #f5f5f5;
+  --btn-bg: #444;
+  --btn-text: #fff;
+}
+
+.light{
+    --bg-color:white;
+    --text-color: black;
+    --btn-bg: #c2bdbd;
+  --btn-text: black;
+    
+}
